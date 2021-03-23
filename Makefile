@@ -35,7 +35,7 @@ MAKEFLAGS += --no-print-directory
 ON_ERROR := error_occurred=1
 
 BREAK_ON_ERRORS = no
-
+EXTRAKEY_ENABLE = yes
 STARTING_MAKEFILE := $(firstword $(MAKEFILE_LIST))
 ROOT_MAKEFILE := $(lastword $(MAKEFILE_LIST))
 ROOT_DIR := $(dir $(ROOT_MAKEFILE))
